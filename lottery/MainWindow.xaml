@@ -1,0 +1,14 @@
+﻿<Window x:Class="lottery.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:lottery"
+        mc:Ignorable="d"
+        Title="Lottery" Topmost="True" WindowState="Maximized">
+    <Grid>
+        <Label Name="ResultLabel" Content="Label" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="48" FontWeight="Bold"/>
+        <Button Content="Button" VerticalAlignment="Top" Width="75"  HorizontalAlignment="Left" Click="Button_Click"/>
+
+    </Grid>
+</Window>
